@@ -22,7 +22,7 @@ name:             'name'
 title:            'title'
 description:      'description'
 url:              'https://jonathon-bell.github.io/'
-theme:            jekyll-theme-minimal
+theme:            jekyll-theme-slate
 markdown:         'kramdown'
 highlighter:      'rouge'
 timezone:         'America/Boston'
