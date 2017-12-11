@@ -7,17 +7,14 @@
 #**  Purpose : Jekyll site configuration file.
 #**
 #**
-#**  See Also: http://pixelcog.com/blog/2013/jekyll-from-scratch-introduction/
-#**
-#**
 #**  Comments: This file uses a tab size of 2 spaces.
 #**                                                                     0-0
 #**                                                                   (| v |)
 #***********************************************************************w*w***
 
-author:           'author'
-email:            'jonathon.a.bell@gmail.com'
-github_username:  'https://github.com/wolery'
+author:           'wol'
+email:            'wol@wolery.tech'
+github_username:  'wolery'
 name:             'name'
 title:            'title'
 description:      'description'
