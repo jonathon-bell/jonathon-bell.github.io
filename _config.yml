@@ -16,13 +16,13 @@
 #***********************************************************************w*w***
 
 author:           'author'
-email:            'jonathon.a.bellgmail.com'
-github_username:  'jonathon-bell'
+email:            'jonathon.a.bell@gmail.com'
+github_username:  'https://github.com/wolery'
 name:             'name'
 title:            'title'
 description:      'description'
 url:              'https://jonathon-bell.github.io/'
-theme:            jekyll-theme-slate
+theme:            'minima'
 markdown:         'kramdown'
 highlighter:      'rouge'
 timezone:         'America/Boston'
