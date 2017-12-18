@@ -7,6 +7,74 @@
 @import "minima";
 
 //****************************************************************************
+
+h1 
+{
+  font-size:    1.5em;
+  font-weight:  bold;
+  color:        green;
+}
+
+h2 
+{
+  margin-bottom: 8px;
+  font-size:    1.2em;
+  font-weight:  bold;
+  color:        #303030;
+}
+
+h3 
+{
+  margin-bottom: 8px;
+  font-size:    18px;
+  font-weight:  bold;
+  color:        #d5000d;
+}
+
+h4 
+{
+  font-size:    16px;
+  font-weight:  bold;
+  color:        #303030;
+}
+
+h5 
+{
+  font-size:    1em;
+  color:        #303030;
+}
+
+h6 
+{
+  font-size:    .8em;
+  color:        #303030;
+}
+
+table 
+{
+  width:        100%;
+  border:       1px solid #ebebeb;
+}
+
+th 
+{
+  font-weight:  500;
+}
+
+td 
+{
+  font-weight:  300;
+  text-align:   center;
+  border:       1px solid #ebebeb;
+}
+
+form 
+{
+  padding:      20px;
+  background:   #f2f2f2;
+}
+
+//****************************************************************************
 //* http://drz.ac/2013/01/17/latex-theorem-like-environments-for-the-web/
 
 @font-face

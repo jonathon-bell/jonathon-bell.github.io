@@ -3,6 +3,8 @@ layout:       default
 title:        Unicode Symbols
 ---
 
+# Unicode Symbols
+
 | **Group**   | **Symbols**                                 |
 |:------------|:--------------------------------------------|
 | scala       | ⇒ → ←                                       |
@@ -20,4 +22,4 @@ title:        Unicode Symbols
 ## See also
 
  - [Unicode math operators](https://en.wikipedia.org/wiki/Mathematical_operators_and_symbols_in_Unicode)
- - [Unicode math symbols](http://xahlee.info/comp/unicode_math_operators.html)
+ - [Xah Lee's math symbol page](http://xahlee.info/comp/unicode_math_operators.html)
