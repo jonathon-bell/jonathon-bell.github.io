@@ -74,10 +74,13 @@
   font-style:     normal;
 }
 
-.proof:after 
+//****************************************************************************
+//* Lists
+//* see https://gist.github.com/bertobox/3503850#file-list-styles-for-markdown-css
+
+.nobullet + ul
 {
-  content:        "▢";
-  float:          right;
+  list-style-type: none;
 }
 
 //****************************************************************************
