@@ -14,42 +14,26 @@ As always, Wikipidea is an invaluable resource:
 - [coset](https://en.wikipedia.org/wiki/Coset)
 - [quotient group](https://en.wikipedia.org/wiki/Quotient_group)
 
+**Definition.**   If $H$ is a subgroup of $G$, we say that the elements $f, g ∈ G$ are *congruent modulo H*, written $\congruent{f}{g}{H}$, whenever $g^{-1} f ∈ H$.   
 
-{: .definition}
-If $H$ is a subgroup of $G$, we say that the elements $f, g ∈ G$ are *congruent modulo H*, written $\congruent{f}{g}{H}$, whenever $g^{-1} f ∈ H$.   
+Congruence modulo $H$ is an [equivalence relation](https://en.wikipedia.org/wiki/Equivalence_relation). 
+[*proof*](/pages/proofs/groups#congruence)
 
-
-{:.lemma}
-Congruence modulo $H$ is an [equivalence relation](https://en.wikipedia.org/wiki/Equivalence_relation).
-
-
-{:.proof}
-Observe that for any elements $f,g,k ∈ G$:
-
-- $f^{-1} f = e ∈ H$ since $H$ is a group, thus $\congruent{f}{f}{H}$.
-
-- if $f^{-1} g = h$ for some $h ∈ H$, then $g f^{-1} = h^{-1} ∈ H$, thus $\congruent{g}{f}{H}$.
-
-- if $f^{-1} g = h_1$ and $g^{-1} k = h_2$ for some $h_1, h_2 ∈ H$, then ($f^{-1}g)(g^{-1} k) = f^{-1} (g g^{-1}) k = f^{-1} k = h_1 h_2 ∈ H$, thus $\congruent{f}{k}{H}$.
-
-That is, congruence is reflexive, symmetric, and transitive; in other words, an *equivalence relation*. ▢
-
-
-{:.definition}
-If $H$ is a subgroup of $G$ and $g$ is an element of $G$, then
+**Definition.**   If $H$ is a subgroup of $G$ and $g$ is an element of $G$, then
 <div class="nobullet"></div>
 - $gH = {gh : h ∈ H}$ is the *left coset* of $H ∈ G$ with respect to g, and
 - $Hg = {hg : h ∈ H}$ is the *right coset* of $H ∈ G$ with respect to g.
 
-Only when $H$ is normal will the set of right cosets and the set of left cosets of $H$ coincide, which is one definition of $normality$ of a subgroup. 
+Only when $H$ is normal will the set of right cosets and the set of left cosets of $H$ coincide, which is one definition of normality of a subgroup. 
 
-- Elements are congruent if and only if they lie in the same [coset](https://en.wikipedia.org/wiki/Coset) of $H$.
+Elements are congruent if and only if they lie in the same [coset](https://en.wikipedia.org/wiki/Coset) of $H$.
+[*proof*](/pages/proofs/groups#cosets)
 
-- The cosets of $H$ must therefore [partition](https://en.wikipedia.org/wiki/Partition_of_a_set) the elements of $G$ into disjoint subsets. 
+The cosets of $H$ must therefore [partition](https://en.wikipedia.org/wiki/Partition_of_a_set) the elements of $G$ into disjoint subsets. 
 
-- The number of cosets of $H$ is called the [index](https://en.wikipedia.org/wiki/Index_of_a_subgroup) of $H$ in $G$, and is written 
-$[G : H]$.
+The number of cosets of $H$ is called the [index](https://en.wikipedia.org/wiki/Index_of_a_subgroup) of $H$ in $G$, and is written $[G : H]$.
 
-- Each pair of cosets is in bijection with one another.
+Each pair of cosets is in bijection with one another.
+[*proof*](/pages/proofs/groups#coset-bijection)
 
-- Thus $\abs{G} = [G : H] \abs{H}$, a result known as [Lagrange's Theorem](https://en.wikipedia.org/wiki/Lagrange%27s_theorem_(group_theory)). 
+Thus $\abs{G} = [G : H] \abs{H}$, a result known as [Lagrange's Theorem](https://en.wikipedia.org/wiki/Lagrange%27s_theorem_(group_theory)). 
