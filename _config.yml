@@ -12,16 +12,7 @@
 #**                                                                   (| v |)
 #***********************************************************************w*w***
 
-author:           'wol'
-email:            'wol@wolery.tech'
-github_username:  'wolery'
-title:            'title'
-description:      'description'
-url:              'https://jonathon-bell.github.io/'
-theme:            'minima'
-markdown:         'kramdown'
-highlighter:      'rouge'
-timezone:         'America/Boston'
-plugins:          [jekyll-feed, jekyll-paginate]
+ theme:           'minima'
+ timezone:        'America/Boston'
 
 #*****************************************************************************
