@@ -26,8 +26,8 @@ Congruence modulo $H$ is an [equivalence relation](https://en.wikipedia.org/wiki
 <definition markdown="block"><span class="lede"><span> 
 If $H$ is a subgroup of $G$ and $g$ is an element of $G$, then
  
-- $gH = \\{gh : h ∈ H\\}$ is the *left coset* of $H ∈ G$ with respect to $g$, and
-- $Hg = \\{hg : h ∈ H\\}$ is the *right coset* of $H ∈ G$ with respect to $g$.
+- $gH = \set{gh : h ∈ H}$ is the *left coset* of $H ∈ G$ with respect to $g$, and
+- $Hg = \set{hg : h ∈ H}$ is the *right coset* of $H ∈ G$ with respect to $g$.
 </definition>
 
 Only when $H$ is normal will the set of right cosets and the set of left cosets of $H$ coincide, which is one definition of normality of a subgroup. 
