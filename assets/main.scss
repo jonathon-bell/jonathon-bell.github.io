@@ -8,147 +8,57 @@
 
 //****************************************************************************
 
-h1 
+definition
 {
-  font-size:    1.5em;
-  font-weight:  bold;
-  color:        green;
+  .lede::before
+  {
+    content: "DEFINITION.";
+    margin:  0em 2em 0em 0em;
+  }
 }
 
-h2 
+theorem
 {
-  margin-bottom: 8px;
-  font-size:    1.2em;
-  font-weight:  bold;
-  color:        #303030;
+  .lede::before
+  {
+    content: "THEOREM.";
+    font-style: normal;
+    margin:  0em 2em 0em 0em;
+  }
+
+  font-style: italic;
 }
 
-h3 
+lemma
 {
-  margin-bottom: 8px;
-  font-size:    18px;
-  font-weight:  bold;
-  color:        #d5000d;
+  .lede::before
+  {
+    content: "LEMMA.";
+    font-style: normal;
+    margin:  0em 3.7em 0em 0em;
+  }
+
+  font-style: italic;
 }
 
-h4 
+proof
 {
-  font-size:    16px;
-  font-weight:  bold;
-  color:        #303030;
+  .lede::before
+  {
+    content: "Proof.";
+    font-style: italic;
+    margin:  0em 4em 0em 1em;
+  }
+  
+  .qed::before
+  {
+    content: "▢";
+    float: right;  
+  }
+  
+  ol
+  {
+    list-style-type: lower-alpha;
+  }
 }
-
-h5 
-{
-  font-size:    1em;
-  color:        #303030;
-}
-
-h6 
-{
-  font-size:    .8em;
-  color:        #303030;
-}
-
-table 
-{
-  width:        100%;
-  border:       1px solid #ebebeb;
-}
-
-th 
-{
-  font-weight:  500;
-}
-
-td 
-{
-  font-weight:  300;
-  text-align:   center;
-  border:       1px solid #ebebeb;
-}
-
-form 
-{
-  padding:      20px;
-  background:   #f2f2f2;
-}
-
-//****************************************************************************
-//* http://drz.ac/2013/01/17/latex-theorem-like-environments-for-the-web/
-
-@font-face
-{
-  font-family: 'MJX_Main';
-  src: url('http://cdn.mathjax.org/mathjax/latest/fonts/HTML-CSS/TeX/eot/MathJax_Main-Regular.eot');                    /* IE9 Compat Modes */
-  src: url('http://cdn.mathjax.org/mathjax/latest/fonts/HTML-CSS/TeX/eot/MathJax_Main-Regular.eot?iefix')               format('eot'),
-       url('http://cdn.mathjax.org/mathjax/latest/fonts/HTML-CSS/TeX/woff/MathJax_Main-Regular.woff')                   format('woff'),
-       url('http://cdn.mathjax.org/mathjax/latest/fonts/HTML-CSS/TeX/otf/MathJax_Main-Regular.otf')                     format('opentype'),
-       url('http://cdn.mathjax.org/mathjax/latest/fonts/HTML-CSS/TeX/svg/MathJax_Main-Regular.svg#MathJax_Main-Regular')format('svg');
-}
-
-.definition:before 
-{
-  content:        "Definition. ";
-  font-weight:    bold;
-  font-style:     normal;
-}
-
-.definition 
-{
-  display:        block;
-  margin:         12px 0;
-  font-style:     normal;
-}
-
-.theorem:before 
-{
-  content:        "Theorem. ";
-  font-weight:    bold;
-  font-style:     normal;
-}
-
-.theorem 
-{
-  display:        block;
-  margin:         12px 0;
-  font-style:     italic;
-}
-
-.lemma:before 
-{
-  content:        "Lemma. ";
-  font-weight:    bold;
-  font-style:     normal;
-}
-
-.lemma 
-{
-  display:        block;
-  margin:         12px 0;
-  font-style:     italic;
-}
-
-.proof:before 
-{
-  content:        "Proof. ";
-  font-style:     italic;
-}
-
-.proof 
-{
-  display:        block;
-  margin:         12px 0;
-  font-style:     normal;
-}
-
-//****************************************************************************
-//* Lists
-//* see https://gist.github.com/bertobox/3503850#file-list-styles-for-markdown-css
-
-.nobullet + ul
-{
-  list-style-type: none;
-}
-
 //****************************************************************************
