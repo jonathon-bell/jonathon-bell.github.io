@@ -56,16 +56,17 @@ proof
 {
   @include            block("Proof");
   
-  .lede::before
-  {
-    font-style:       italic;
-  }
-
   .qed::before
   {
     content:          "▢";
     float:            right;
   }
+}
+
+
+.proof-link
+{
+  color: red;
 }
 
 //****************************************************************************

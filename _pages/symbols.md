@@ -21,4 +21,5 @@ title:        Unicode Symbols
 
 ## See also
 
- - [Unicode math operators](https: - [Xah Lee's math symbol page](http:
+ - [Unicode math operators](https://en.wikipedia.org/wiki/Mathematical_operators_and_symbols_in_Unicode)
+ - [Xah Lee's math symbol page](http://xahlee.info/comp/unicode_math_operators.html)
