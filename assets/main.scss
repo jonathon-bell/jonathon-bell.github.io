@@ -8,22 +8,33 @@
 
 //****************************************************************************
 
-definition
+@mixin block($type)
 {
   .lede::before
   {
-    content: "DEFINITION.";
-    margin:  0em 2em 0em 0em;
+    content:          $type;
+    font-variant:     small-caps;
+    margin:           0em 2em 0em 0em;
   }
+  
+  ol
+  {
+    list-style-type:  lower-alpha;
+  }
+}
+
+definition
+{
+  @include            block("Definition");
 }
 
 theorem
 {
+  @include            block("Theorem");
+
   .lede::before
   {
-    content: "THEOREM.";
-    font-style: normal;
-    margin:  0em 2em 0em 0em;
+    font-style:       normal;
   }
 
   font-style: italic;
@@ -31,34 +42,30 @@ theorem
 
 lemma
 {
+  @include            block("Lemma");
+  
   .lede::before
   {
-    content: "LEMMA.";
-    font-style: normal;
-    margin:  0em 3.7em 0em 0em;
+    font-style:       normal;
   }
 
-  font-style: italic;
+  font-style:         italic;
 }
 
 proof
 {
+  @include            block("Proof");
+  
   .lede::before
   {
-    content: "Proof.";
-    font-style: italic;
-    margin:  0em 4em 0em 1em;
+    font-style:       italic;
   }
-  
+
   .qed::before
   {
-    content: "▢";
-    float: right;  
-  }
-  
-  ol
-  {
-    list-style-type: lower-alpha;
+    content:          "▢";
+    float:            right;
   }
 }
+
 //****************************************************************************
