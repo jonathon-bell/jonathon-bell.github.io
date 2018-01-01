@@ -12,7 +12,7 @@
 //*                                                                   (| v |)
 //**********************************************************************w*w***
 
-#define HTTP (link,url,title) \
+#define HTTP(link,url,title) \
 [link](http:!//url title)
 
 #define HTTPS(link,url,title) \

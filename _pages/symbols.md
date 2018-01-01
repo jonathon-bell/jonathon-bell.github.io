@@ -3,6 +3,8 @@ layout:       default
 title:        Unicode Symbols
 ---
 
+#include  "macros.h"
+
 # Unicode Symbols
 
 | **Group**   | **Symbols**                                 |
@@ -21,5 +23,5 @@ title:        Unicode Symbols
 
 ## See also
 
- - [Unicode math operators](https://en.wikipedia.org/wiki/Mathematical_operators_and_symbols_in_Unicode)
- - [Xah Lee's math symbol page](http://xahlee.info/comp/unicode_math_operators.html)
+ - WIKI(Unicode math operators,Mathematical_operators_and_symbols_in_Unicode)
+ - HTTP(Xah Lee's math symbol page,xahlee.info/comp/unicode_math_operators.html)
