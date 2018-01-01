@@ -8,15 +8,16 @@
 
 //****************************************************************************
 
-@mixin block($type)
+@mixin block($first-word)
 {
   .lede::before
   {
-    content:          $type;
+    content:          $first-word + ".";
     font-variant:     small-caps;
+    font-style:       normal;
     margin:           0em 2em 0em 0em;
   }
-  
+
   ol
   {
     list-style-type:  lower-alpha;
@@ -25,48 +26,30 @@
 
 definition
 {
-  @include            block("Definition");
+  @include block("Definition");
 }
 
 theorem
 {
   @include            block("Theorem");
-
-  .lede::before
-  {
-    font-style:       normal;
-  }
-
-  font-style: italic;
+  font-style:         italic;
 }
 
 lemma
 {
   @include            block("Lemma");
-  
-  .lede::before
-  {
-    font-style:       normal;
-  }
-
   font-style:         italic;
 }
 
 proof
 {
   @include            block("Proof");
-  
+
   .qed::before
   {
     content:          "▢";
-    float:            right;
+    float:            right;  
   }
-}
-
-
-.proof-link
-{
-  color: red;
 }
 
 //****************************************************************************
