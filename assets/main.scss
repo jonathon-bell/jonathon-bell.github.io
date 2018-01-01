@@ -15,7 +15,6 @@
     content:          $first-word + ".";
     font-variant:     small-caps;
     font-style:       normal;
-    margin:           0em 2em 0em 0em;
   }
 
   ol
@@ -26,7 +25,7 @@
 
 definition
 {
-  @include block("Definition");
+  @include            block("Definition");
 }
 
 theorem
@@ -48,7 +47,7 @@ proof
   .qed::before
   {
     content:          "▢";
-    float:            right;  
+    float:            right;
   }
 }
 
