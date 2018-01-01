@@ -10,11 +10,10 @@ title:    Group Theory
 I'd like to quickly recap some basic notions of group theory that are relevant to the design and implementation of the Owl core. 
 
 As always, Wikipedia is an invaluable resource:
-- WIKI(equivalence relation,Equivalence_relation)
 - WIKI(group               ,Group_(mathematics))
 - WIKI(subgroup            ,Subgroup_(mathematics))
+- WIKI(equivalence relation,Equivalence_relation)
 - WIKI(coset               ,Coset)
-- WIKI(quotient group      ,Quotient_group)
 
 BEG(definition)
 If $H$ is a subgroup of $G$, we say that the elements $f, g ∈ G$ are *congruent modulo* $H$, written $MOD(f,g,H)$, whenever $g^{-1} f ∈ H$.
@@ -51,5 +50,5 @@ PROOF(coset-bijection)
 END(lemma)
 
 BEG(theorem)
-Thus $\abs{G} = [G : H] \abs{H}$, a result known as WIKI(Lagrange's Theorem,Lagrange%27s_theorem_(group_theory)). 
+Thus $|G| = [G : H] |H|$, a result known as WIKI(Lagrange's Theorem,Lagrange%27s_theorem_(group_theory)). 
 END(theorem)

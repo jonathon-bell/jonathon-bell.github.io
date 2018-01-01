@@ -13,33 +13,36 @@
 //**********************************************************************w*w***
 
 #define HTTP (link,url,title) \
-  [link](http:!//url title)
+[link](http:!//url title)
 
 #define HTTPS(link,url,title) \
-  [link](https:!//url title)
+[link](https:!//url title)
 
 #define WIKI(link,page,title) \
-  [link](https:!//en.wikipedia.org/wiki/page title)
+[link](https:!//en.wikipedia.org/wiki/page title)
 
 #define BEG(type,other) \
-  <type markdown="block"><span class="lede"><span>
+<type markdown="block"><span class="lede"><span>
 
 #define END(type) \
-  </type>
+</type>
 
 #define PROOF(page) \
-  [<span class="proof-link">proof</span>](/pages/proofs/page "Proof 'page'")
+[<span class="proof-link">proof</span>](/pages/proofs/page "Proof 'page'")
  
 #define QED(type) \
-  <span class="qed"></span>
+<span class="qed"></span>
 
 //****************************************************************************
 
 #define SET(body) \
-  \\{ body \\}
+\\{ body \\}
+
+#define INV(a) \
+a^{-1}
 
 #define MOD(a,b,modulus) \
-  a ≡ b \text{ mod } modulus
+a ≡ b \text{ mod } modulus
 
 //****************************************************************************
 
