@@ -34,7 +34,7 @@ END(definition)
 Only when $H$ is normal will the set of right cosets and the set of left cosets of $H$ coincide, which is one definition of normality of a subgroup. 
 
 BEG(lemma)
-Elements are congruent if and only if they lie in the same WIKI(coset,Coset) of $H$. 
+Elements are congruent if and only if they lie in the same left coset of $H$.
 PROOF(cosets)
 END(lemma) 
 

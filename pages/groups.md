@@ -27,16 +27,16 @@ As always, Wikipedia is an invaluable resource:
 - [equivalence relation](https://en.wikipedia.org/wiki/Equivalence_relation )
 - [coset               ](https://en.wikipedia.org/wiki/Coset )
 
-<definition markdown="block"><span class="lede"><span>
+<definition markdown="block"><span class="lede">&nbsp;&nbsp;<span>
 If $H$ is a subgroup of $G$, we say that the elements $f, g ∈ G$ are *congruent modulo* $H$, written $f ≡ g \text{ mod } H$, whenever $g^{-1} f ∈ H$.
 </definition>
 
-<lemma markdown="block"><span class="lede"><span>
+<lemma markdown="block"><span class="lede">&nbsp;&nbsp;<span>
 Congruence modulo $H$ is an [equivalence relation](https://en.wikipedia.org/wiki/Equivalence_relation ).
 [<span class="proof-link">proof</span>](/pages/proofs/001-congruence "Proof '001-congruence'")
 </lemma>
 
-<definition markdown="block"><span class="lede"><span>
+<definition markdown="block"><span class="lede">&nbsp;&nbsp;<span>
 If $H$ is a subgroup of $G$ and $g$ is an element of $G$, then
  
 - $gH = \\{ gh : h ∈ H \\}$ is the *left coset* of $H ∈ G$ with respect to $g$, and
@@ -45,22 +45,22 @@ If $H$ is a subgroup of $G$ and $g$ is an element of $G$, then
 
 Only when $H$ is normal will the set of right cosets and the set of left cosets of $H$ coincide, which is one definition of normality of a subgroup. 
 
-<lemma markdown="block"><span class="lede"><span>
+<lemma markdown="block"><span class="lede">&nbsp;&nbsp;<span>
 Elements are congruent if and only if they lie in the same [coset](https://en.wikipedia.org/wiki/Coset ) of $H$. 
 [<span class="proof-link">proof</span>](/pages/proofs/cosets "Proof 'cosets'")
 </lemma> 
 
 The cosets of $H$ must therefore [partition](https://en.wikipedia.org/wiki/Partition_of_a_set ) the elements of $G$ into disjoint subsets. 
 
-<definition markdown="block"><span class="lede"><span>
+<definition markdown="block"><span class="lede">&nbsp;&nbsp;<span>
 The number of cosets of $H$ is called the [index](https://en.wikipedia.org/wiki/Index_of_a_subgroup ) of $H$ in $G$, and is written $[G : H]$.
 </definition>
 
-<lemma markdown="block"><span class="lede"><span>
+<lemma markdown="block"><span class="lede">&nbsp;&nbsp;<span>
 Each pair of cosets is in bijection with one another. 
 [<span class="proof-link">proof</span>](/pages/proofs/coset-bijection "Proof 'coset-bijection'")
 </lemma>
 
-<theorem markdown="block"><span class="lede"><span>
+<theorem markdown="block"><span class="lede">&nbsp;&nbsp;<span>
 Thus $|G| = [G : H] |H|$, a result known as [Lagrange's Theorem](https://en.wikipedia.org/wiki/Lagrange%27s_theorem_(group_theory) ). 
 </theorem>

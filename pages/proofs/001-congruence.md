@@ -17,11 +17,11 @@ title:        congruence
 
 
 
-<lemma markdown="block"><span class="lede"><span>
+<lemma markdown="block"><span class="lede">&nbsp;&nbsp;<span>
 If $H$ is a subgroup of $G$, then congruence modulo $H$ is an [equivalence relation](https://en.wikipedia.org/wiki/Equivalence_relation ) on the elements of $G$.
 </lemma>
 
-<proof markdown="block"><span class="lede"><span>
+<proof markdown="block"><span class="lede">&nbsp;&nbsp;<span>
 Observe that for any elements $f, g, k ∈ G$
 
 1. $f^{-1} f = e ∈ H$, since the group $H$ must contain the identity element, and thus $f ≡ f \text{ mod } H$.

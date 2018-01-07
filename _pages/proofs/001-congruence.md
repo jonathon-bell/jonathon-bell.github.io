@@ -6,7 +6,7 @@ title:        congruence
 #include  "macros.h"
 
 BEG(lemma)
-If $H$ is a subgroup of $G$, then congruence modulo $H$ is an WIKI(equivalence relation,Equivalence_relation) on the elements of $G$.
+If $H$ is a subgroup of $G$ and $a, b \in G$, then $MOD(a,b,H) if and only if $a, b \in gH$ for some element $g \in Gx$.
 END(lemma)
 
 BEG(proof)

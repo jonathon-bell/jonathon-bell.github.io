@@ -22,7 +22,7 @@
 [link](https:!//en.wikipedia.org/wiki/page title)
 
 #define BEG(type,other) \
-<type markdown="block"><span class="lede"><span>
+<type markdown="block"><span class="lede">&nbsp;&nbsp;<span>
 
 #define END(type) \
 </type>
